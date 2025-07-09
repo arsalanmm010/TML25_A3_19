@@ -26,16 +26,15 @@ This project implements a robust image classifier that resists adversarial attac
 ---
 
 ## Folder Structure
-yaml
 .
 ├── train/
-│ ├── models_variants/ # Different model versions from experimentation
-│ ├── model_training.py # Main training script with adversarial defense
-│ └── final_model.pt # Best performing trained model
+│   ├── models_variants/           # Different model versions from experimentation
+│   ├── model_training.py          # Main training script with adversarial defense
+│   └── final_model.pt             # Best performing trained model
 ├── eda/
-│ ├── preprocessing.ipynb # Data preprocessing and cleaning
-│ └── train_test_class_balance.ipynb # Class balance analysis
-└── submission.py # Submission script
+│   ├── preprocessing.ipynb       # Data preprocessing and cleaning
+│   └── train_test_class_balance.ipynb  # Class balance analysis
+└── submission.py                 # Submission script
 
 
 ---
