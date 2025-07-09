@@ -26,6 +26,7 @@ This project implements a robust image classifier that resists adversarial attac
 ---
 
 ## Folder Structure
+```yaml
 .
 ├── train/
 │   ├── models_variants/           # Different model versions from experimentation
@@ -35,7 +36,7 @@ This project implements a robust image classifier that resists adversarial attac
 │   ├── preprocessing.ipynb       # Data preprocessing and cleaning
 │   └── train_test_class_balance.ipynb  # Class balance analysis
 └── submission.py                 # Submission script
-
+```
 
 ---
 
